@@ -31,8 +31,30 @@
             </ul>
         </div>
     </nav>
+    <div class="container">
+          <div class="grid">
+              <div id="main">
+                <div class="imagen2" > <img src="img/imagen2.jpg" alt="jpg"></div>
+              </div>
+              <div id="main2">
+                  <div id="deporte">
+                      <h1 class="titulo">Deporte</h1>
+                  </div>
+                  <div id="tecnologia">
+                      <h1 class="titulo">Tecnologia</h1>
+                  </div>
+              </div>
+          </div>
+      </div>
 
 
+      <script src="js/index.js"></script>
+      <script>
+          indexHours("hours");
+          index('http://demo6497253.mockable.io/noticias', 'main');
+          indexGeneric('http://demo6497253.mockable.io/categoria/deporte', 'deporte');
+          indexGeneric('http://demo6497253.mockable.io/categoria/tecnologia', 'tecnologia');
+      </script>
 </body>
 
 </html>
